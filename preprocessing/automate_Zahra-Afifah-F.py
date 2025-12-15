@@ -25,6 +25,7 @@ def preprocess_data(input_path: str, output_path: str):
 
 if __name__ == "__main__":
     preprocess_data(
-        "telco_customer_churn_raw.csv",
+        "Telco_customer_churn_raw.csv",
         "preprocessing/telco_customer_churn_preprocessing/telco_churn_processed.csv")
+
 
